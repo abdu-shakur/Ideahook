@@ -29,8 +29,8 @@ function Header(){
     }
         return(
             <nav className="flex justify-between space-x-9 m-3">
-                <div className="flex  "><a href="/"><img className="h-8 p-2" src="./src/assets/logo1.png" alt="Ideahook Logo"/></a></div>
-                <ul className="flex self-end space-x-4 md:flex text-primary">
+            <img className="h-8 p-2" src={`${process.env.PUBLIC_URL}/src/assets/logo1.png`} alt="Ideahook Logo"/>
+            <ul className="flex self-end space-x-4 md:flex text-primary">
                     {displayLinks()}
                 </ul> 
             </nav>
