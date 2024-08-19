@@ -1,0 +1,27 @@
+ideahook/
+├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   └── robots.txt
+├── src/
+│   ├── assets/
+│   │   └── [images, fonts, etc.]
+│   ├── components/
+│   │   ├── Header.js
+│   │   ├── Footer.js
+│   │   └── [other components]
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── About.js
+│   │   └── [other pages]
+│   ├── styles/
+│   │   ├── global.css
+│   │   └── [other stylesheets]
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── [other files]
+├── .gitignore
+├── package.json
+├── README.md
+└── vite.config.js
